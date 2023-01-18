@@ -1,0 +1,22 @@
+{
+  "name": "tajgram",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "vue": "^3.2.36",
+    "vue-router": "^4.1.6"
+  },
+  "devDependencies": {
+    "@vue/compiler-sfc": "^3.2.45",
+    "nodemon": "^2.0.20"
+  }
+}

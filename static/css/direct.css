@@ -1,0 +1,64 @@
+.direct_inbox {
+  max-width: 1170px;
+  height: calc(100vh - 80px);
+  margin: 10px auto;
+  box-shadow: 0px 0px 5px #c2c2c2;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.message {
+  border: 1px solid #c2c2c2;
+  border-left: none;
+}
+
+
+.persons {
+  border: 1px solid #c2c2c2; 
+  padding: 5px;
+}
+
+.accauntlogindirect{
+    width: 100%;
+    height: 70px;
+    /* background-color: teal; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.accauntlogindirect:hover{
+    background-color: rgb(229, 242, 253);
+}
+
+.person_sms{
+    width: 100%;
+    height: calc(100vh - 130px);
+    overflow: auto;
+    /* background-color: red; */
+}
+
+.direct_header > span{
+    display: block;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+.accauntlogindirect_left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.accauntlogindirect_logo{
+    width: 60px;
+    height: 60px;
+    background-color: #cde8ff;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+/* .accauntlogindirect_text{
+    background-color: teal;
+} */
